@@ -23,6 +23,14 @@
         max-width: 270px;
         margin:auto;
     }
+    .b-sub-prod{
+        max-width: 270px;
+        margin: auto;
+  
+    }
+    .w-2{
+        width:50%;
+    }
 }
 
 @media(max-width:767px){
@@ -32,6 +40,9 @@
     .w-md-1{
         width:100%;
     }
+    
+
+
  
 }
 @media(min-width:992px){
@@ -39,4 +50,5 @@
     display: none;
 
 }
+
 }
