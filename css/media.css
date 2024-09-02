@@ -43,6 +43,9 @@
     .sofa, .text3, .view-more{
         margin-left: 4% !important;
     }
+    .mg2{
+        padding-left:0 !important;
+    }
 }
 
 @media(max-width:767px){
