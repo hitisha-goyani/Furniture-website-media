@@ -69,10 +69,14 @@ a:hover{
 .button-1{
     background-color: white;
     color:#e99c2e;
-    border:1px solid#e99c2e; 
+    border:2px solid#e99c2e; 
     height: 40px;
     width:30px;
     border-radius: 4px;
+    
+}
+.ri-menu-line{
+    font-weight: 700;
 }
 
 /* header section end */
