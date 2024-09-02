@@ -31,6 +31,14 @@
     .w-2{
         width:50%;
     }
+    .sub-box-2{
+        max-width: 350px;
+        margin: auto;
+    }
+    .head img{
+        width:100%;
+        margin: auto;
+    }
 }
 
 @media(max-width:767px){
@@ -40,15 +48,24 @@
     .w-md-1{
         width:100%;
     }
+    .head img{
+        width:100%;
+    }
     
 
 
  
 }
 @media(min-width:992px){
-.button{
+.button-1{
     display: none;
 
 }
+    .menu{
+        display: none;
+    }
+
+
+
 
 }
