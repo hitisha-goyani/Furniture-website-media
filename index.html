@@ -19,14 +19,16 @@
         <div class="header-container">
             <div class="navbar">
                 <button class="button-1"><i class="ri-menu-line"></i></button>
-                <div class=" logo">Furn.</div>
-                <div class=" text">
+                <div class="logo">Furn.</div>
+        <div class="hide-nav">
+            <div class="text">
                     <a href="#a">Home</a>
                     <a href="#b">New Arrival</a>
                     <a href="#c">features</a>
                     <a href="#d">Blog</a>
                     <a href="#e">Contact</a>
-                </div>
+    </div>
+</div>
                 <div class="icons">
                     <i class="ri-search-line"></i>
                     <i class="ri-settings-4-line"></i>
@@ -529,7 +531,12 @@
         </div>
      </footer>
 
-
+<script src="jquery/jquery.min.js"></script>
+<script>
+     $(".button-1").click(function(){
+        $(".hide-nav").slideToggle();
+    })
+</script>
 
 </body>
 </html>
